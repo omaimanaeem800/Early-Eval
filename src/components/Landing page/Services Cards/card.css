@@ -1,0 +1,17 @@
+/* styles.css */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; /* Adjust the gap between cards */
+    width: 80%;
+    padding: 70px;
+    margin: 15px;
+  }
+  
+  .card {
+    width: calc((100% - 40px) / 3); /* Calculates the width of each card with a gap of 20px */
+    margin-bottom: 20px; /* Adjust the margin bottom as needed */
+  }
+  
