@@ -1,1 +1,60 @@
-
+.heading{
+    font-size: 30px; /* Font size */
+    font-family: sans-serif; /* Font family */
+    color: #010101; /* Text color */
+    text-align: center; /* Text alignment */
+    font-weight: bold; /* Font weight */
+    padding-top: 100px;
+   
+  }
+  
+  .right {
+    display: flex; /* Flexbox ka istemal karke horizontal layout set karein */
+    overflow-x: auto; /* Horizontal scrollbar show karein agar sabhi cards ek line mein fit na ho rahe hain */
+    padding-top: 20px;
+    padding-left: 300px;
+   
+  }
+  .left {
+    display: flex; /* Flexbox ka istemal karke horizontal layout set karein */
+    overflow-x: auto; /* Horizontal scrollbar show karein agar sabhi cards ek line mein fit na ho rahe hain */
+    padding-top: 20px;
+    padding-left: 300px;
+   
+  }
+  .service-card1,
+  .service-card2 {
+    width: 250px; /* Width ko appropriate value par adjust karein */
+    margin: 0 10px; /* Cards ke beech mein thoda space de */
+    padding: 10px;
+    padding-top: 80px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 6px rgba(0, 105, 151, 0.1);
+    transition: transform 0.3s ease;
+    background-color: rgb(214, 245, 248);
+    border-style: inherit;
+  }
+  
+  .service-card1:hover,.service-card2:hover  {
+    transform: translateY(-5px);
+  }
+  
+    
+    .service-icon {
+      width: 50px;
+      height: 50px;
+      padding-left: 90px;
+    }
+    
+    .service-title {
+      font-size: 1.2em;
+      margin-bottom: 5px;
+      text-align: center;
+      padding-top: 2px;
+    }
+    
+    .service-description {
+      color: #666;
+      text-align: center;
+    }
+    
